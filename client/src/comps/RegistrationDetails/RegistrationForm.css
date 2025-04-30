@@ -1,0 +1,141 @@
+/* Basic form styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input, select, and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+/* Focus and hover effects */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Checkbox and label styling */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between checkbox and label */
+  margin: 8px 0;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #007bff; /* Modern browsers allow accent color for checkboxes */
+}
+
+label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Group multiple form elements on the same line */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Space between elements */
+  margin: 8px 0;
+}
+
+/* Individual input/select within a group */
+.form-group input,
+.form-group select {
+  flex: 1; /* Allows inputs to grow within the group */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Fieldset styling */
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 25px 15px 15px;
+  margin: 2.5rem 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+/* Legend styling */
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); */
+  position: absolute;
+  top: -20px; /* Adjust to align with the border */
+  left: 10px;
+}
+
+/* Styling for elements inside fieldset */
+fieldset input,
+fieldset select,
+fieldset textarea {
+  margin-top: 8px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Textarea resize */
+textarea {
+  resize: vertical;
+}

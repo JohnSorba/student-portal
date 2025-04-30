@@ -1,0 +1,28 @@
+header {
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  border-bottom: 1px solid black;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+.navbar {
+  width: 30%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
