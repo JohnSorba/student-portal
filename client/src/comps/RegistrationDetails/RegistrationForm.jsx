@@ -87,16 +87,16 @@ function Registration() {
               <option value="daycare">Daycare</option>
               <option value="n1">Nursery 1</option>
               <option value="n2">Nursery 2</option>
-              <option value="n3">Nursery 3</option>
-              <option value="prep1">Prep 1</option>
-              <option value="prep2">Prep 2</option>
-              <option value="prep3">Prep 3</option>
-              <option value="prep4">Prep 4</option>
-              <option value="prep5">Prep 5</option>
-              <option value="prep6">Prep 6</option>
-              <option value="jss1">JSS 1</option>
-              <option value="jss2">JSS 2</option>
-              <option value="jss3">JSS 3</option>
+              <option value="n3">Reception</option>
+              <option value="p1">Prep 1</option>
+              <option value="p2">Prep 2</option>
+              <option value="p3">Prep 3</option>
+              <option value="p4">Prep 4</option>
+              <option value="p5">Prep 5</option>
+              <option value="p6">Prep 6</option>
+              <option value="j1">JSS 1</option>
+              <option value="j2">JSS 2</option>
+              <option value="j3">JSS 3</option>
             </select>
           </article>
         </fieldset>
@@ -106,7 +106,7 @@ function Registration() {
           <article>
             <div>
               <label>Most Common Ailment</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Example illness..." />
             </div>
             <div className="checkbox-group">
               <label>
@@ -133,15 +133,15 @@ function Registration() {
 
             <div>
               <label>Name:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter Full Name" />
             </div>
             <div>
               <label>Address:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter Address" />
             </div>
             <div>
               <label>Place of Work:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter workplace" />
             </div>
             <div className="form-group">
               <div>
@@ -150,7 +150,7 @@ function Registration() {
               </div>
               <div>
                 <label>Tel Nos</label>
-                <input type="076123785" />
+                <input type="tel" />
               </div>
             </div>
           </article>
@@ -161,15 +161,15 @@ function Registration() {
 
             <div>
               <label>Name:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter Mother's Full Name" />
             </div>
             <div>
               <label>Address:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter Full Adress" />
             </div>
             <div>
               <label>Place of Work:</label>
-              <input type="text" placeholder="Enter text" />
+              <input type="text" placeholder="Enter workplace" />
             </div>
             <div className="form-group">
               <div>
