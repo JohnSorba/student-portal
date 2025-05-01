@@ -15,7 +15,7 @@ app.use(express.json());
 // Define a Route
 app.get("/", (req, res) => {
   const data = { message: "Hello from the API from our Student Portal!" };
-  res.json(data);
+  res.json(data.message);
   // res.send("<h1>Hello, ES6 Express Server Side!</h1>");
 });
 
